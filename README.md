@@ -1,16 +1,21 @@
-# INF-8240 Data Visualization I
+# INF-8240 Visualización de Datos I
 
-This repository contains assignments, projects, datasets, and supporting materials developed for INF-8240 Data Visualization I.
+## Descripción
 
-## Repository Structure
+Repositorio académico para la asignatura
+INF-8240 Visualización de Datos I.
 
-- Assignments
-- Projects
-- Datasets
-- Resources
-- Images
+## Estructura
 
-## Author
+- Unit_01
+- Unit_02
+- Unit_03
+
+Cada unidad contiene:
+
+- notebooks/: ejercicios y laboratorios.
+- data/: conjuntos de datos utilizados.
+
+## Autor
 
 Francisco Pascual
-Master's in Data Science and Artificial Intelligence
