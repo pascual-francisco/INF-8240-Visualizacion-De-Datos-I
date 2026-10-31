@@ -14,6 +14,8 @@ Esta práctica tiene como propósito integrar y aplicar los principales concepto
 
 El caso se centra en la empresa ficticia **ComercioDigital RD**, una organización dedicada al comercio electrónico que desea evaluar su desempeño comercial durante un período de seis meses. La dirección necesita comprender la evolución de las ventas, el comportamiento de las reclamaciones y la contribución de sus distintos canales comerciales para apoyar la toma de decisiones.
 
+---
+
 ## Contexto del Problema
 
 En entornos empresariales, los datos por sí solos tienen un valor limitado si no son transformados en información útil para la toma de decisiones. La visualización de datos permite identificar patrones, tendencias y oportunidades que pueden pasar desapercibidas al observar únicamente tablas numéricas.
@@ -25,6 +27,8 @@ El análisis realizado busca responder preguntas como:
 - ¿Existe alguna relación observable entre ventas y reclamaciones?
 - ¿Qué recomendaciones pueden formularse a partir de la evidencia disponible?
 - ¿Cuáles son las limitaciones del análisis realizado?
+
+---
 
 ## Objetivos de Aprendizaje
 
@@ -38,6 +42,8 @@ Al completar esta práctica, el estudiante será capaz de:
 - Comunicar hallazgos utilizando principios de storytelling con datos.
 - Formular recomendaciones basadas en evidencia.
 - Reconocer las limitaciones inherentes a los datos disponibles.
+
+---
 
 ## Competencias Evaluadas
 
@@ -56,6 +62,8 @@ Al completar esta práctica, el estudiante será capaz de:
 - Identificación de limitaciones y supuestos.
 - Evaluación de afirmaciones utilizando datos.
 
+---
+
 ## Herramientas Utilizadas
 
 El desarrollo de la práctica se realizó utilizando:
@@ -67,6 +75,8 @@ El desarrollo de la práctica se realizó utilizando:
 - Google Colab
 
 Estas herramientas permiten reproducir completamente los cálculos, gráficos e interpretaciones presentados en el análisis.
+
+---
 
 ## Contenido de la Práctica
 
@@ -101,6 +111,8 @@ El notebook se encuentra organizado en las siguientes secciones:
 
 11. Importancia de la visualización y comunicación en Ciencia de Datos.
 
+---
+
 ## Conjuntos de Datos Utilizados
 
 ### Conjunto A. Ventas y Reclamaciones Mensuales
@@ -123,6 +135,8 @@ El notebook se encuentra organizado en las siguientes secciones:
 | Redes sociales | 50 |
 | Ventas telefónicas | 30 |
 
+---
+
 ## Visualizaciones Desarrolladas
 
 Durante la práctica se construyeron las siguientes visualizaciones:
@@ -143,39 +157,89 @@ Muestra la participación relativa de cada canal dentro del total de ventas del 
 
 Propuesto para analizar la relación entre ventas y reclamaciones mensuales.
 
+---
+
+# Análisis General
+
+## Desempeño Comercial
+
+El análisis de las ventas mensuales muestra un crecimiento sostenido durante el período evaluado. Las ventas aumentaron desde 100 miles de RD en enero hasta 260 miles de RD en junio, registrando el valor más alto del semestre. Aunque entre febrero y marzo las ventas permanecieron constantes, no se observaron disminuciones en ningún momento del período analizado.
+
+Las medidas descriptivas calculadas muestran una media de 150 miles de RD y una mediana de 130 miles de RD. La diferencia entre ambas indica que las ventas excepcionalmente altas observadas en junio ejercen una influencia considerable sobre el promedio general, elevándolo por encima del comportamiento típico de los meses anteriores.
+
+## Comportamiento de las Reclamaciones
+
+Las reclamaciones también presentan una tendencia creciente, pasando de 8 en enero a 25 en junio. Este comportamiento coincide con el incremento de las ventas y podría estar asociado a un mayor volumen de operaciones o clientes atendidos.
+
+Sin embargo, los datos disponibles no permiten concluir que las reclamaciones causen el aumento de las ventas ni que el crecimiento de las ventas provoque directamente el aumento de las reclamaciones. Ambos fenómenos podrían estar relacionados con otros factores no observados.
+
+## Desempeño por Canal Comercial
+
+El análisis de los canales de venta revela que la página web constituye la principal fuente de ingresos de la empresa, generando 100 miles de RD durante junio. La aplicación móvil ocupa el segundo lugar con 80 miles de RD, mientras que las redes sociales y las ventas telefónicas presentan una contribución menor.
+
+La distribución observada sugiere que los canales digitales desempeñan un papel fundamental en la generación de ingresos de ComercioDigital RD.
+
+## Implicaciones para la Gerencia
+
+Los resultados obtenidos sugieren oportunidades para fortalecer los canales digitales con mejor desempeño, especialmente la página web y la aplicación móvil. Asimismo, el incremento de las reclamaciones justifica la revisión de procesos relacionados con atención al cliente, logística y calidad del servicio, con el fin de mantener una experiencia positiva para los usuarios.
+
+La combinación de crecimiento comercial y aumento de reclamaciones indica la necesidad de equilibrar la expansión del negocio con mecanismos adecuados de control y satisfacción del cliente.
+
+---
+
 ## Principales Hallazgos
 
-- Las ventas presentan una tendencia creciente durante el período analizado.
-- Junio registra el mayor volumen de ventas del semestre.
-- La página web representa el canal con mejores resultados comerciales.
-- La aplicación móvil constituye el segundo canal de mayor contribución.
-- Las reclamaciones aumentan a medida que aumenta la actividad comercial.
-- Los datos disponibles permiten identificar asociaciones, pero no establecer relaciones causales.
-- El período de análisis es relativamente corto y limita la capacidad de realizar predicciones sobre el comportamiento futuro.
+- Las ventas presentan una tendencia creciente durante todo el semestre.
+- Junio registra el mayor volumen de ventas del período analizado.
+- La página web es el canal con mayor participación en las ventas de junio.
+- La aplicación móvil constituye el segundo canal más importante.
+- Las reclamaciones aumentan junto con el crecimiento de la actividad comercial.
+- Los datos permiten identificar tendencias y asociaciones, pero no relaciones causales.
+- El período de análisis es relativamente corto para realizar proyecciones confiables.
+
+---
 
 ## Principales Recomendaciones
 
-1. Fortalecer la inversión y optimización del canal web debido a su liderazgo en ventas.
+### 1. Fortalecer el Canal Web
 
-2. Evaluar oportunidades de crecimiento en la aplicación móvil para incrementar su participación en los ingresos totales.
+La página web es el canal con mayores ventas y representa la principal fuente de ingresos observada durante el período analizado.
 
-3. Analizar las causas del aumento de las reclamaciones para mejorar la experiencia del cliente.
+### 2. Potenciar la Aplicación Móvil
 
-4. Implementar mecanismos de monitoreo continuo que permitan evaluar el desempeño a lo largo del tiempo.
+La aplicación móvil muestra un desempeño importante y puede representar una oportunidad adicional de crecimiento.
 
-5. Ampliar el período de observación para generar análisis más robustos y confiables.
+### 3. Investigar las Reclamaciones
+
+Resulta recomendable identificar las causas del aumento de reclamaciones para evitar impactos negativos en la experiencia del cliente.
+
+### 4. Implementar Seguimiento Continuo
+
+La empresa debería monitorear tanto ventas como reclamaciones mediante indicadores periódicos que permitan detectar cambios oportunamente.
+
+### 5. Ampliar la Disponibilidad de Datos
+
+El análisis futuro se beneficiaría de un período más amplio de observación y de variables adicionales relacionadas con clientes, campañas comerciales y operaciones.
+
+---
 
 ## Limitaciones del Estudio
 
 - Solo se dispone de seis meses de información.
-- Los datos corresponden a una empresa ficticia utilizada con fines académicos.
-- No existen variables adicionales que permitan explicar el comportamiento observado.
-- No es posible establecer relaciones causales entre las variables analizadas.
-- No se dispone de datos históricos suficientes para realizar proyecciones confiables.
+- Los datos corresponden a una empresa ficticia con fines académicos.
+- No existen variables adicionales que permitan explicar completamente los resultados observados.
+- No es posible establecer relaciones causales entre ventas y reclamaciones.
+- No se dispone de información suficiente para realizar predicciones futuras confiables.
+
+---
 
 ## Conclusión
 
-La práctica permitió aplicar de manera integral los conceptos fundamentales de la Unidad I. A través de la estadística descriptiva y la visualización de datos fue posible transformar datos numéricos en información útil para la toma de decisiones. Los resultados evidencian la importancia de seleccionar visualizaciones adecuadas, interpretar los hallazgos de forma crítica y comunicar los resultados de manera clara y objetiva.
+La práctica permitió aplicar de forma integral los conceptos fundamentales de la Unidad I relacionados con análisis descriptivo, visualización de datos e interpretación de resultados. Mediante el uso de estadísticas descriptivas y visualizaciones adecuadas fue posible transformar datos en información útil para la toma de decisiones.
+
+Los resultados muestran una evolución positiva de las ventas y evidencian la importancia de los canales digitales en el desempeño comercial de la empresa. Asimismo, resaltan la necesidad de interpretar los datos de forma crítica, comunicar los hallazgos con claridad y reconocer las limitaciones inherentes a cualquier análisis.
+
+---
 
 ## Autor
 
